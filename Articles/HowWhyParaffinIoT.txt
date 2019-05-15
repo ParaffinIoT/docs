@@ -1,1 +1,17 @@
-How and Why Paraffin IoT Platform does help Startups?
+How and Why Paraffin IoT Platform make it easy for Startups?
+
+About
+Paraffin is IoT platform based on node.js, mongodb and Docker with MQTT, HTTP and CoAP bridge. Paraffin will enable you to put your IoT API services on your own server simply and painless in one command. It supports the popular MQTT protocol in sync with HTTP and CoAP. It is in javascript and by Parse Server api server will be able to authorize your device list so broker perform authentication by your entry data in MongoDB by api server. Broker is based on Ponte and is under development so it should work.
+
+Features
+Simple and Scalable.
+HTTP, MQTT and CoAP connections together as a bridge.
+MQTT 3.1 and 3.1.1 compliant.
+Sercured with authentication and JWT.
+Installation
+Paraffin IoT Platform is installed by two methods. Firstly besure docker and docker-compose is installed.
+
+Install by script
+Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
+
+sudo curl -o- https://raw.githubusercontent.com/ParaffinIoT/paraffin/master/install.sh | bash
